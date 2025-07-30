@@ -3,18 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Enzo Echeverría</title>
+    <title>ENZO ECHEVERRÍA</title>
   </head>
   <body>
-    <main>
+    <main class="textos">
       <section>
         <h1>Enzo Echeverría</h1>
-       <div class="sitios">
+       <div>
            <h3>Mis sitios:</h3>
            <p>Instagram: <a href="https://instagram.com/enzutaa">mi ig</a></p>
            <p>Github: <a href="https://github.com/enzutaa">mi github</a></p>
        </div>     
       </section>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" value="Nombre" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" value="ejemplo@ejemplo.com" required>
+
+            <label for="razon">Razón por contactarte conmigo:</label>
+            <input type="text" name="razon" id="razon" value="Razón" required>
+
+            <button type="submit">Enviar datos</button>
+          </fieldset>
+        </form>
+      </section>
     </main>
+    <footer>
+      <p>Enzo company :v</p>
+    </footer>
   </body>
 </html>

@@ -5,20 +5,21 @@ h1 {
     font-family: sans-serif;
 }
 
-.sitios {
+.textos {
+    background-color: burlywood;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
-.sitios a {
+.textos a {
     text-decoration: none;
 }
 
-.sitios a:link {
+.textos a:link {
     color:darkblue;
 }
 
-.sitios a:visited {
+.textos a:visited {
     color:purple;
 }
