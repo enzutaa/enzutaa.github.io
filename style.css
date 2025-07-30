@@ -12,9 +12,8 @@ h1 {
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 40px;
-    padding: 20px;
-    min-height: 120vh;
+    padding: 40px 20px;
+    min-height: 100vh;
     max-width: 500px;
     width: 100%;
 }
