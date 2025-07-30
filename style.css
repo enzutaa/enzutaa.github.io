@@ -18,6 +18,10 @@ h1 {
     max-width: 800px;
 }
 
+#ig {
+    margin-top: -10px;
+}
+
 .textos a {
     text-decoration: none;
 }
