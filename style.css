@@ -1,1 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #C4A484;
+}
+
+h1, h3 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+  font-family: times-new-roman;
+}
+
+p, legend {
+    margin: 10px 0px;
+}
+
+legend {
+  letter-spacing: 2px;
+}
+
+fieldset {
+  border: 2px solid beige;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input {
+    margin: 10px 0px;
+}
+
+.textos {
+    background-color: burlywood;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 800px;
+    width: 100%;
+}
+
+.sitios a {
+    text-decoration: none;
+}
+
+.sitios a:link {
+    color:darkblue;
+}
+
+.sitios a:visited {
+    color:purple;
+}
