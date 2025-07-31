@@ -6,17 +6,17 @@
 
 h1, h3 {
     font-size: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
     font-family: sans-serif;
 }
 
 p {
-    margin: 15px 0px;
+    margin: 5px 0px;
 }
 
 input {
-    margin: 15px 0px;
+    margin: 5px 0px;
 }
 
 .textos {
