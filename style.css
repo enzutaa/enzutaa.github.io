@@ -4,23 +4,49 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #C4A484;
+}
+
 h1, h3 {
     font-size: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: center;
     font-family: sans-serif;
 }
 
-p {
-    margin: 5px 0px;
+h1 {
+  font-family: times-new-roman;
+}
+
+p, legend {
+    margin: 10px 0px;
+}
+
+legend {
+  letter-spacing: 2px;
+}
+
+fieldset {
+  border: 2px solid beige;
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 input {
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .textos {
     background-color: burlywood;
+    border-radius: 20px;
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
@@ -30,14 +56,14 @@ input {
     width: 100%;
 }
 
-.textos a {
+.sitios a {
     text-decoration: none;
 }
 
-.textos a:link {
+.sitios a:link {
     color:darkblue;
 }
 
-.textos a:visited {
+.sitios a:visited {
     color:purple;
 }
